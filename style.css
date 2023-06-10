@@ -1,6 +1,6 @@
 body {
   font-family: "Arial", sans-serif;
-  margin: 2% 10%;
+  margin: 2% 5%;
 }
 h1 {
   font-size: 2em;
@@ -10,7 +10,36 @@ img {
   max-width: 500px;
   border-radius: 20px;
 }
+a {
+  text-decoration: none;
+}
+
+.centered {
+  text-align: center;
+}
+
 .description {
   color: #777;
   font-size: 0.9em;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipeCard {
+  background: #eee;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  color: #333;
+}
+
+.recipeCard img {
+  max-width: 300px;
+  border-radius: 20px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
